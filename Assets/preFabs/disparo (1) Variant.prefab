@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1994722987334936760
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3400889743527834020, guid: a2d152bad77062644b2edc0b459dd8fa, type: 3}
+      propertyPath: m_Name
+      value: disparo (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400889743527834023, guid: a2d152bad77062644b2edc0b459dd8fa, type: 3}
+      propertyPath: jugador
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400889743527834026, guid: a2d152bad77062644b2edc0b459dd8fa, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400889743527834026, guid: a2d152bad77062644b2edc0b459dd8fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400889743527834026, guid: a2d152bad77062644b2edc0b459dd8fa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400889743527834026, guid: a2d152bad77062644b2edc0b459dd8fa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -15.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400889743527834026, guid: a2d152bad77062644b2edc0b459dd8fa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.04196298
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400889743527834026, guid: a2d152bad77062644b2edc0b459dd8fa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400889743527834026, guid: a2d152bad77062644b2edc0b459dd8fa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.99911916
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400889743527834026, guid: a2d152bad77062644b2edc0b459dd8fa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400889743527834026, guid: a2d152bad77062644b2edc0b459dd8fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400889743527834026, guid: a2d152bad77062644b2edc0b459dd8fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 175.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3400889743527834026, guid: a2d152bad77062644b2edc0b459dd8fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3400889743527834023, guid: a2d152bad77062644b2edc0b459dd8fa, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: a2d152bad77062644b2edc0b459dd8fa, type: 3}
+--- !u!4 &3791132372963773701 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3400889741990356413, guid: a2d152bad77062644b2edc0b459dd8fa, type: 3}
+  m_PrefabInstance: {fileID: 1994722987334936760}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3791132374630750482 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3400889743527834026, guid: a2d152bad77062644b2edc0b459dd8fa, type: 3}
+  m_PrefabInstance: {fileID: 1994722987334936760}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3791132374630750492 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3400889743527834020, guid: a2d152bad77062644b2edc0b459dd8fa, type: 3}
+  m_PrefabInstance: {fileID: 1994722987334936760}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &602643257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3791132374630750492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbb6693442342f94caf143c2ec61682a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rangoDeAlerta: 8.38
+  target: {fileID: 9101393166124321340, guid: bcdfa8a77c452df4783b8287662cda84, type: 3}
+  moveSpeed: 3
+  vida: 3
+  myTransform: {fileID: 3791132374630750482}
+  bullet: {fileID: 6561662070506563734, guid: 83254883e3145ff45a261fcc3d12f327, type: 3}
+  spawnPoint: {fileID: 3791132372963773701}
+  shotForce: 1500
+  shotRate: 1
+  shotRateTime: 0
